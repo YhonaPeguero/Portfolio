@@ -8,8 +8,8 @@ const Contact = () => {
             className="w-full bg-[#0a192f] flex justify-center items-center p-8 mt-10"
         >
             <form
-                method="POST"
-                action="https://getform.io/f/4285b4d4-76f6-4187-ba9c-6e03a7fa5ca2"
+                name="site-contact"
+                netflify
                 className="flex flex-col max-w-[600px] w-full"
             >
                 <div className="pb-8">
