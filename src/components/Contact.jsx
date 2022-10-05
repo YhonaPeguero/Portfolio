@@ -8,7 +8,6 @@ const Contact = () => {
             className="w-full bg-[#0a192f] flex justify-center items-center p-8 mt-10"
         >
             <form
-                name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field"
                 className="flex flex-col max-w-[600px] w-full"
             >
                 <div className="pb-8">
