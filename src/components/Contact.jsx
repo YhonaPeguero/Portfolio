@@ -8,8 +8,7 @@ const Contact = () => {
             className="w-full bg-[#0a192f] flex justify-center items-center p-8 mt-10"
         >
             <form
-                name="contact"
-                netflify
+                name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field"
                 className="flex flex-col max-w-[600px] w-full"
             >
                 <div className="pb-8">
@@ -20,11 +19,9 @@ const Contact = () => {
                     ¡Espero que podamos hablar pronto! enviame un mensaje para charlar sobre tu proyecto.
                     </p>
                 </div>
-                <input
+                <input type="hidden" name="form-name" value="contact"
                     className="bg-[#ccd6f6] p-2"
-                    type="text"
                     placeholder="Nombre"
-                    name="name"
                 />
                 <input
                     className="my-4 p-2 bg-[#ccd6f6]"
