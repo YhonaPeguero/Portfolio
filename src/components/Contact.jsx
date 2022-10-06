@@ -8,7 +8,7 @@ const Contact = () => {
             className="w-full bg-[#0a192f] flex justify-center items-center p-8 mt-10"
         >
             
-            <form name="contactForm" method="POST" data-netlify="true" data-netlify-honeypot="bot-field"
+            <form name="contactForm" method="POST" action="https://getform.io/f/4d8ea7cc-360e-4cf5-be8e-c08bae209aac"
                 className="flex flex-col max-w-[600px] w-full"
             >
                
