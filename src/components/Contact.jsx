@@ -7,7 +7,8 @@ const Contact = () => {
             /* le quito el h-screen y le paso de p-4 a p-8 */
             className="w-full bg-[#0a192f] flex justify-center items-center p-8 mt-10"
         >
-            <form name="contact" method="post"
+            
+            <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field"
                 className="flex flex-col max-w-[600px] w-full"
             >
                
