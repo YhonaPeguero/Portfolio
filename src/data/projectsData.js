@@ -16,7 +16,7 @@ const projects = {
         },
         {
             bgImg: AnimeApp,
-            title: "Anime App",
+            title: "Anime App React",
             linkLive: "https://anime-app-ob.netlify.app/",
             linkCode: "https://github.com/fabioalcocer/anime-app",
         },
