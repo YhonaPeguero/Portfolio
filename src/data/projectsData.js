@@ -41,7 +41,7 @@ const projects = {
         },
         {
             bgImg: Portfolio,
-            title: "Portfolio Yhonatan",
+            title: "Portfolio in React",
             linkLive: "/portfolio",
             linkCode: "https://github.com/Leandro-Marcelo/portfolio",
         },
