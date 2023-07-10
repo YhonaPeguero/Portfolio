@@ -14,7 +14,7 @@ const projects = {
         },
         {
             bgImg: TestApiPeliculas,
-            title: "Test-Api-Peliculas",
+            title: "Test Api Peliculas",
             linkLive: "https://test-react-developer.netlify.app/",
             linkCode: "https://github.com/YhonaPeguero/Prueba-Tecnica-React-Developer",
         },
