@@ -1,5 +1,5 @@
 import AnimeApp from "../assets/anime-app.png";
-import TestApiPeliculas from "../assets/test-api-peliculas.png";
+import TestApiPeliculas from "../assets/test-api.png";
 import Encriptador from "../assets/encriptador.png";
 
 
