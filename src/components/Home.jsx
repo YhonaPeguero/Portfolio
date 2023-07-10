@@ -18,8 +18,7 @@ const Home = () => {
           <u>Front-End Developer.</u>
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-        Ingeniero de software y desarrollador web (También soy un intento de fullStack 😂) con excelente conocimiento de las tecnologías bases 
-        como html, css, javascript y metodologías ágiles para el desarrollo de software.
+        Ingeniero de software especializado en el desarrollado web con excelente conocimiento de las tecnologías, herramientas y metodologías ágiles para el desarrollo de software.
         </p>
         
         <div>
