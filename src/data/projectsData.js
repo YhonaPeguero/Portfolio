@@ -1,6 +1,8 @@
 import AnimeApp from "../assets/anime-app.png";
 import TestApiPeliculas from "../assets/test-api.png";
 import Encriptador from "../assets/encriptador.png";
+import TrackCalendar from "../assets/TrackCalendar.jpg";
+import Portafolio from "../assets/Portfolio.png"
 
 
 const projects = {
@@ -17,6 +19,18 @@ const projects = {
             title: "Test Api Peliculas",
             linkLive: "https://test-react-developer.netlify.app/",
             linkCode: "https://github.com/YhonaPeguero/Prueba-Tecnica-React-Developer",
+        },
+        {
+            bgImg: TrackCalendar,
+            title: "Tracker de Habitos",
+            linkLive: "https://tracking-goals.netlify.app/",
+            linkCode: "https://github.com/YhonaPeguero/Tracking-Habits",
+        },
+        {
+            bgImg: Portafolio,
+            title: "Mi Portafolio personal",
+            linkLive: "https://portfolio-yhonatan.netlify.app/",
+            linkCode: "https://github.com/YhonaPeguero/portfolio",
         },
         {
             bgImg: Encriptador,
