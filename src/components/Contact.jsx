@@ -5,7 +5,7 @@ const Contact = () => {
         <div
             name="contact"
             /* le quito el h-screen y le paso de p-4 a p-8 */
-            className="w-full bg-[#0a192f] flex justify-center items-center p-8 mt-10"
+            className="w-full h-screen bg-[#0a192f] flex justify-center items-center p-8 mt-10"
         >
             
             <form name="contactForm" method="POST" action="https://getform.io/f/4d8ea7cc-360e-4cf5-be8e-c08bae209aac"

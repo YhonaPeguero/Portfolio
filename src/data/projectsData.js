@@ -1,12 +1,22 @@
 import AnimeApp from "../assets/anime-app.png";
 import TestApiPeliculas from "../assets/test-api.png";
-import Encriptador from "../assets/encriptador.png";
+import PromoVisa from "../assets/promo-visa-sin-limites.jpg";
 import TrackCalendar from "../assets/TrackCalendar.jpg";
 import Portafolio from "../assets/Portfolio.png"
+import DigitalThrive from "../assets/digital-thrive.jpg"
+import TokenCalculator from "../assets/llmtokencalculator.jpg"
+import GestorNotas from "../assets/gestor-de-notas.jpg"
+
 
 
 const projects = {
     data: [
+
+        {
+            bgImg: PromoVisa,
+            title: "Promo Visa [Cliente]",
+            linkLive: "https://promo-visa.netlify.app/",
+        },
 
         {
             bgImg: AnimeApp,
@@ -14,12 +24,27 @@ const projects = {
             linkLive: "https://anime-app-ob.netlify.app/",
             linkCode: "https://github.com/fabioalcocer/anime-app",
         },
+
+        {
+            bgImg: DigitalThrive,
+            title: "Landing Page [Cliente]",
+            linkLive: "https://digitalthrivee.com/",
+        },
+
         {
             bgImg: TestApiPeliculas,
             title: "Test Api Peliculas",
             linkLive: "https://test-react-developer.netlify.app/",
             linkCode: "https://github.com/YhonaPeguero/Prueba-Tecnica-React-Developer",
         },
+
+        {
+            bgImg: TokenCalculator,
+            title: "Calcular Tokens de LLms",
+            linkLive: "https://llmtokenscalulator.netlify.app/",
+            linkCode: "https://github.com/YhonaPeguero/llms-tokens-calculator",
+        },
+
         {
             bgImg: TrackCalendar,
             title: "Tracker de Habitos",
@@ -27,16 +52,10 @@ const projects = {
             linkCode: "https://github.com/YhonaPeguero/Tracking-Habits",
         },
         {
-            bgImg: Portafolio,
-            title: "Mi Portafolio personal",
-            linkLive: "https://portfolio-yhonatan.netlify.app/",
-            linkCode: "https://github.com/YhonaPeguero/portfolio",
-        },
-        {
-            bgImg: Encriptador,
-            title: "Encriptador de texto",
-            linkLive: "https://yhonapeguero.github.io/Alura-Challenge-One/",
-            linkCode: "https://github.com/YhonaPeguero/Alura-Challenge-One",
+            bgImg: GestorNotas,
+            title: "Gestor de Notas FullStack",
+            linkLive: "https://gestion-de-notas.netlify.app/",
+            linkCode: "https://github.com/YhonaPeguero/FullStack-Front-End-Integration",
         },
     ],
 };

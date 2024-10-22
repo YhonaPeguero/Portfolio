@@ -11,14 +11,14 @@ const Home = () => {
 
         <p className="text-pink-600">Hola, mi nombre es</p>
         {/* @media (min-width: 640px) === sm  */}
-        <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
+        <h1 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
           Yhonatan Peguero
         </h1>
-        <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
-          <u>Front-End Developer.</u>
+        <h2 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
+          <u>Software Engineer.</u>
         </h2>
-        <p className="text-[#8892b0] py-4 max-w-[700px]">
-        Ingeniero de software especializado en el desarrollado web con excelente conocimiento de las tecnologías, herramientas y metodologías ágiles para el desarrollo de software.
+        <p className="text-[#ccd6f6] py-4 max-w-[700px]">
+        Me especializo en el desarrollo de aplicaciones web, con mayor expertise en front-end y sólidas bases en backend. Destaco por crear soluciones web innovadoras utilizando tecnologías ágiles para maximizar resultados.
         </p>
         
         <div>
