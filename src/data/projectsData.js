@@ -6,6 +6,8 @@ import Portafolio from "../assets/Portfolio.png"
 import DigitalThrive from "../assets/digital-thrive.jpg"
 import TokenCalculator from "../assets/llmtokencalculator.jpg"
 import GestorNotas from "../assets/gestor-de-notas.jpg"
+import LeoPrint from "../assets/leoprint.jpg"
+import VocationalLanding from "../assets/VocationalLanding.jpg"
 
 
 
@@ -13,16 +15,15 @@ const projects = {
     data: [
 
         {
-            bgImg: PromoVisa,
-            title: "Promo Visa [Cliente]",
-            linkLive: "https://promo-visa.netlify.app/",
+            bgImg: LeoPrint,
+            title: "Landing Page [Cliente]",
+            linkLive: "https://leo-print.vercel.app/",
         },
 
         {
-            bgImg: AnimeApp,
-            title: "Anime App React",
-            linkLive: "https://anime-app-ob.netlify.app/",
-            linkCode: "https://github.com/fabioalcocer/anime-app",
+            bgImg: PromoVisa,
+            title: "Promo Visa [Cliente]",
+            linkLive: "https://promo-visa.netlify.app/",
         },
 
         {
@@ -32,10 +33,10 @@ const projects = {
         },
 
         {
-            bgImg: TestApiPeliculas,
-            title: "Test Api Peliculas",
-            linkLive: "https://test-react-developer.netlify.app/",
-            linkCode: "https://github.com/YhonaPeguero/Prueba-Tecnica-React-Developer",
+            bgImg: VocationalLanding,
+            title: "Guía Profesional Potenciada por IA",
+            linkLive: "https://vocational-ai.vercel.app/",
+            linkCode: "https://github.com/YhonaPeguero/VocationalAI",
         },
 
         {
@@ -46,16 +47,10 @@ const projects = {
         },
 
         {
-            bgImg: TrackCalendar,
-            title: "Tracker de Habitos",
-            linkLive: "https://tracking-goals.netlify.app/",
-            linkCode: "https://github.com/YhonaPeguero/Tracking-Habits",
-        },
-        {
-            bgImg: GestorNotas,
-            title: "Gestor de Notas FullStack",
-            linkLive: "https://gestion-de-notas.netlify.app/",
-            linkCode: "https://github.com/YhonaPeguero/FullStack-Front-End-Integration",
+            bgImg: AnimeApp,
+            title: "Anime App React",
+            linkLive: "https://anime-app-ob.netlify.app/",
+            linkCode: "https://github.com/fabioalcocer/anime-app",
         },
     ],
 };
